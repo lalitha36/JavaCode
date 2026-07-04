@@ -12,7 +12,7 @@ public class PalindromePrograme {
     static String output = ""; 
 
 	public static void main(String[] args) {
-		Scanner s= new Scanner(System.in);
+	/*	Scanner s= new Scanner(System.in);
 		for(int i=0; i<=3; i--)
 		
 		{
@@ -42,7 +42,32 @@ public class PalindromePrograme {
 		 }
 		}
 		 
-		 s.close();
+		 s.close(); */
+		 
+		 String a ="madam";
+			String b="";
+		
+			
+			for(int i =a.length()-1; i>=0; i--)
+			{
+				char a1=a.charAt(i);
+				
+				b=b+a1;
+				System.out.println("Index of "+i+" is "+b);
+				
+				
+			}
+			System.out.println("A string :"+a);
+			System.out.println("B string :"+b);
+			if(a.equals(b))
+			{
+				System.out.println("  Yes, Its a palindrom ");
+			}
+			else
+			{
+				System.out.println("No");
+			}
+			
 	/*	for(int i =0; i<input.length(); i++)
 		{
 		    char out2 = input.charAt(i);
